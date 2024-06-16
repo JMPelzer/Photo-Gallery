@@ -1,0 +1,270 @@
+/* root selector for CSS color variables */
+:root {
+    --teal: #007d76;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/*Global styles*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*main header and body */
+body {
+    margin: 0 auto;
+    background-color: var(--black);
+    width: 485px;
+
+}
+
+main {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+
+}
+
+header {
+    background-color: var(--white);
+}
+
+
+/*Nav styles*/
+nav ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: var(--white);
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+nav a:hover {
+    background-color: var(--white);
+    color: var(--teal);
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    border: 2px solid var(--white);
+}
+
+/*text styles*/
+h1 {
+    font-size: 3em;
+    color: var(--teal);
+    text-align: left;
+}
+
+main h2 {
+    font-size: 2em;
+    color: var(--black);
+    text-align: center;
+}
+
+main p {
+    color: var(--black);
+    font-size: 1.25em;
+}
+
+aside h2 {
+    color: var(--white);
+    font-size: 2em;
+    text-align: center;
+}
+
+aside p {
+    color: var(--white);
+    font-size: 1.25em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/*Form and button styles*/
+label {
+    color: var(--white);
+    font-size: 1em;
+    margin: 0 0 4px 16px;
+    font-weight: bold;
+}
+
+input,
+label,
+select,
+textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+input::placeholder {
+    font-weight: 800;
+    color: var(--teal);
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0 0 4px 16px;
+
+}
+
+.button {
+    background-color: var(--teal);
+    border: none;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*Image Styles*/
+img {
+    width: 100%;
+    margin: 10px;
+}
+
+.Chile {
+    position: relative;
+    color: var(--white);
+}
+
+.chileText {
+    position: absolute;
+    bottom: 8px;
+    left: 45%;
+}
+
+.Guatemala {
+    position: relative;
+    color: var(--white);
+}
+
+.guatText {
+    position: absolute;
+    top: 8px;
+    left: 40%;
+}
+
+.Hawaii {
+    position: relative;
+    color: var(--white);
+}
+
+.hawiText {
+    position: absolute;
+    bottom: 8px;
+    left: 40%;
+}
+
+.Iran {
+    position: relative;
+}
+
+.iranText {
+    position: absolute;
+    top: 8px;
+    left: 40%;
+}
+
+.Ireland {
+    position: relative;
+}
+
+.irelandText {
+    position: absolute;
+    top: 8px;
+    left: 40%;
+}
+
+.Italy {
+    position: relative;
+}
+
+.italyText {
+    position: absolute;
+    bottom: 8px;
+    left: 40%;
+}
+
+.Moab {
+    position: relative;
+    color: var(--white);
+}
+
+.moabText {
+    position: absolute;
+    bottom: 8px;
+    left: 35%;
+}
+
+.Rocky {
+    position: relative;
+}
+
+.rockyText {
+    position: absolute;
+    top: 8px;
+    left: 30%;
+}
+
+.Swiss {
+    position: relative;
+}
+
+.swissText {
+    position: absolute;
+    top: 8px;
+    left: 35%;
+}
+
+.UK {
+    position: relative;
+}
+
+.ukText {
+    position: absolute;
+    top: 8px;
+    left: 43%;
+}
+
+.USA {
+    position: relative;
+}
+
+.usaText {
+    position: absolute;
+    top: 8px;
+    left: 43%;
+}
+
+.WY {
+    position: relative;
+    color: var(--white);
+}
+
+.wyText {
+    position: absolute;
+    top: 8px;
+    left: 38%;
+}
