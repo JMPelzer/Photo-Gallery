@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-/*main header and body */
+/*main ,header, body, styles */
 body {
     margin: 0 auto;
     background-color: var(--black);
@@ -29,6 +29,13 @@ main {
 
 header {
     background-color: var(--white);
+}
+
+footer {
+    color: var(--white);
+    text-align: center;
+    font-size: 1em;
+    padding: 30px 0px 0px;
 }
 
 
@@ -81,7 +88,9 @@ main h2 {
 main p {
     color: var(--black);
     font-size: 1.25em;
+
 }
+
 
 aside h2 {
     color: var(--white);
@@ -104,8 +113,8 @@ h3 {
 label {
     color: var(--white);
     font-size: 1em;
-    margin: 0 0 4px 16px;
     font-weight: bold;
+
 }
 
 input,
@@ -113,7 +122,8 @@ label,
 select,
 textarea {
     padding: 10px;
-    width: 100%;
+    width: 80%;
+    margin: 5px 50px 0px 65px;
 }
 
 input::placeholder {
@@ -131,11 +141,15 @@ input::placeholder {
     color: var(--white);
     font-weight: bold;
     border-radius: 20px;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 40%;
+    margin-left: 160px;
+
 }
 
 /*Image Styles*/
@@ -267,4 +281,62 @@ img {
     position: absolute;
     top: 8px;
     left: 38%;
+}
+
+@media screen and (min-width:880px) {
+    body {
+
+        width: 880px;
+
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    input,
+    label,
+    select,
+    textarea {
+        margin: 5px 50px 0px 85px;
+    }
+
+    .button {
+        width: 40%;
+        margin-left: 260px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    body {
+
+        width: 1300px;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+        justify-content: right;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .button {
+        margin-left: 400px;
+    }
+
+    input,
+    label,
+    select,
+    textarea {
+        padding: 10px;
+        width: 80%;
+        margin: 5px 50px 0px 125px;
+    }
 }
