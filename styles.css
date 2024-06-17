@@ -185,9 +185,9 @@ img {
     color: var(--white);
 }
 
-.hawiText {
+.hawaiiText {
     position: absolute;
-    bottom: 8px;
+    top: 240px;
     left: 40%;
 }
 
