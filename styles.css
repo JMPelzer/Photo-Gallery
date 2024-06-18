@@ -158,7 +158,7 @@ img {
     margin: 10px;
 }
 
-.Chile {
+#Chile {
     position: relative;
     color: var(--white);
 }
@@ -169,7 +169,7 @@ img {
     left: 45%;
 }
 
-.Guatemala {
+#Guatemala {
     position: relative;
     color: var(--white);
 }
@@ -180,7 +180,7 @@ img {
     left: 40%;
 }
 
-.Hawaii {
+#Hawaii {
     position: relative;
     color: var(--white);
 }
@@ -191,7 +191,7 @@ img {
     left: 40%;
 }
 
-.Iran {
+#Iran {
     position: relative;
 }
 
@@ -201,7 +201,7 @@ img {
     left: 40%;
 }
 
-.Ireland {
+#Ireland {
     position: relative;
 }
 
@@ -211,7 +211,7 @@ img {
     left: 40%;
 }
 
-.Italy {
+#Italy {
     position: relative;
 }
 
@@ -221,7 +221,7 @@ img {
     left: 40%;
 }
 
-.Moab {
+#Moab {
     position: relative;
     color: var(--white);
 }
@@ -232,7 +232,7 @@ img {
     left: 35%;
 }
 
-.Rocky {
+#Rocky {
     position: relative;
 }
 
@@ -242,7 +242,7 @@ img {
     left: 30%;
 }
 
-.Swiss {
+#Swiss {
     position: relative;
 }
 
@@ -252,7 +252,7 @@ img {
     left: 35%;
 }
 
-.UK {
+#UK {
     position: relative;
 }
 
@@ -262,7 +262,7 @@ img {
     left: 43%;
 }
 
-.USA {
+#USA {
     position: relative;
 }
 
@@ -272,7 +272,7 @@ img {
     left: 43%;
 }
 
-.WY {
+#WY {
     position: relative;
     color: var(--white);
 }
@@ -290,7 +290,7 @@ img {
 
     }
 
-    #container {
+    .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
@@ -321,7 +321,7 @@ img {
         justify-content: right;
     }
 
-    #container {
+    .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
